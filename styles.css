@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 
+/* page setup */
 body {
   font-family: Georgia, "Times New Roman", Times, serif;
   background-image: url("background.jpg");
@@ -19,6 +20,7 @@ body {
   gap: 20px;
 }
 
+/* title banner */
 .heading {
   text-align: center;
   text-transform: uppercase;
@@ -29,6 +31,7 @@ body {
   /* margin removed — gap on body handles spacing now */
 }
 
+/* main card layout */
 .card {
   display: flex;
   background-color: bisque;
@@ -38,6 +41,7 @@ body {
   /* margin: 80px removed — gap on body handles spacing now */
 }
 
+/* shared card styling for both sides */
 .rose-side,
 .message-side {
   padding: 30px;
@@ -53,12 +57,14 @@ body {
   background-color: bisque;
 }
 
-.rose{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+/* rose image fill */
+.rose {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
+/* subtle hover motion */
 .rose-side:hover,
 .message-side:hover {
   transform: scale(1.1);
