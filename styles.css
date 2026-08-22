@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-image: url("background.jpg");
+  background-size: cover;      /* stretch image to fully cover the viewport */
+  background-repeat: no-repeat; /* stop it from tiling */
+  background-position: center;  /* keep it centered while covering */
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  gap: 20px;
+}
+
+.heading {
+  text-align: center;
+  text-transform: uppercase;
+  background-color: bisque;
+  padding: 30px;
+  width: 83vw;
+  border: 2px dotted red;
+  /* margin removed — gap on body handles spacing now */
+}
+
+.card {
+  display: flex;
+  background-color: bisque;
+  flex-wrap: wrap;
+  width: 83vw;
+  /* flex: 1 removed — this was making it stretch to fill vertical space */
+  /* margin: 80px removed — gap on body handles spacing now */
+}
+
+.rose-side,
+.message-side {
+  padding: 30px;
+  border-radius: 10px;
+  border: 2px dotted red;
+  line-height: 60px;
+  box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.3);
+  display: flex;
+  width: 41.5vw;
+  flex-direction: column;
+  justify-content: center;
+  font-size: x-large;
+  background-color: bisque;
+}
+
+.rose{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.rose-side:hover,
+.message-side:hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out 0.3s;
+}
