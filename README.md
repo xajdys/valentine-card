@@ -56,4 +56,3 @@ valentines-card/
 ## 💭 Notes
 
 Built as a learning project while studying CSS Flexbox — the goal was less about a "perfect" design and more about applying flex concepts (centering, wrapping, growing/shrinking) to a real, finished piece rather than isolated code snippets.
-
