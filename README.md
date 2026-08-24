@@ -1,6 +1,6 @@
 # 💌 Valentine's Card
 
-![Website Preview](image-1.png)
+![Website Preview](website-preview.png)
 
 A cozy, warm-toned digital Valentine's card built with pure HTML and CSS Flexbox — no frameworks, no JavaScript, just handwritten love (and a lot of debugging).
 
@@ -49,10 +49,13 @@ This was my first hands-on Flexbox project after learning the fundamentals. A fe
 
 ```
 valentines-card/
+
 ├── index.html
 ├── styles.css
 ├── background.jpg
-└── roses.png
+├── roses.png
+├── website-preview.png
+
 ```
 
 ## 💭 Notes
