@@ -1,6 +1,6 @@
 # 💌 Valentine's Card
 
-![Website Preview](image.png)
+![Website Preview](image-1.png)
 
 A cozy, warm-toned digital Valentine's card built with pure HTML and CSS Flexbox — no frameworks, no JavaScript, just handwritten love (and a lot of debugging).
 
